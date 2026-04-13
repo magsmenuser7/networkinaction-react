@@ -93,7 +93,7 @@ export default function Home() {
             as Amaravathi rises.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pb-10">
             <Button to="/join" variant="filled">
               Join NIA Guntur
             </Button>
@@ -117,7 +117,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { stat: '100+', label: 'Business Owners' },
-              { stat: 'April 3, 2025', label: 'Launch' },
+              { stat: 'April 3, 2026', label: 'Launch' },
               { stat: 'Guntur × Amaravathi', label: '' },
             ].map((item, index) => (
               <div
@@ -309,7 +309,7 @@ export default function Home() {
           NIA
         </div>
 
-        <AnimatedSection className="max-w-3xl mx-auto text-center relative z-10">
+        <AnimatedSection className="max-w-3xl mx-auto text-center relative z-10 ">
           <h2 className="text-4xl md:text-5xl lg:text-[56px] font-extrabold text-nia-black mb-8">
             Ready to be in the room?
           </h2>
